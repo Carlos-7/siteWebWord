@@ -1,9 +1,9 @@
 /* geral */
-*, *:before, *:after {
+/* *, *:before, *:after {
  -webkit-box-sizing: border-box; 
  -moz-box-sizing: border-box; 
  box-sizing: border-box;
-} 
+}  */
 
 *, *{
 	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -29,7 +29,7 @@
 .grid-1, .grid-2, .grid-3, .grid-4{
  float: left;
  margin-left: 10px;
-	margin-right: 10px;
+ margin-right: 10px;
 }
 
 .grid-1{
@@ -108,6 +108,16 @@ form input{
 	line-height: 1px;
 	background: url("../img/search.png") no-repeat right;
 	background-position-x: 150px;
-	background-position-y: 4px;
+	background-position-y: 4px;	
 }
 
+/* form input:focus{
+	outline-width: 0;
+} */
+
+/* carrossel */
+/* .carrossel{ */
+	/* margin-top: 50px; */
+	/* overflow-y: hidden; */
+	/* overflow-x: hidden; */
+/* } */
