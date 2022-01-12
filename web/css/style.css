@@ -1,9 +1,15 @@
 /* geral */
-/* *, *:before, *:after {
+*, *:before, *:after {
  -webkit-box-sizing: border-box; 
  -moz-box-sizing: border-box; 
  box-sizing: border-box;
-}  */
+} 
+
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
 
 *, *{
 	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -107,16 +113,36 @@ form input{
 	font-size: 13px;
 	line-height: 1px;
 	background: url("../img/search.png") no-repeat right;
-	background-position-x: 150px;
-	background-position-y: 4px;	
+	background-position-x: 155px;
+	background-position-y: 7px;	
 }
 
-/* form input:focus{
+form input:focus{
 	outline-width: 0;
-} */
+}
 
 /* carrossel */
+.carrossel{
+	padding-top: 21px;
+}
+
+/* .carrossel .slick-dots{
+	background: #00bac6;
+} */
+.carrossel .slick-dots{
+	bottom: 20px;
+}
+
+.carrossel .slick-dots button{
+	border-radius: 100%;
+	background: #fff;
+	width: 76%;
+	height: 76%;
+}
+
 /* .carrossel{ */
+	/* width: 100%; */
+	/* position: relative; */
 	/* margin-top: 50px; */
 	/* overflow-y: hidden; */
 	/* overflow-x: hidden; */
