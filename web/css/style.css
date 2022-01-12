@@ -15,6 +15,26 @@ html, body {
 	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+h1{
+	font-size: 14px;
+	text-align: center;
+}
+
+h2{
+	font-size: 15px;
+	text-align: center;
+}
+
+h3{
+	font-size: 30px;
+	text-align: center;
+}
+
+h4{
+	font-size: 40px;
+	text-align: center;
+}
+
 .container{
  width: 980px;
  margin: 0 auto;
@@ -88,7 +108,6 @@ nav ul li{
 }
 
 nav ul a{
-	font-size: 14px;
 	text-transform: uppercase;
 	color: #c6c6c6;
 	padding-right: 28px;
@@ -124,6 +143,7 @@ form input:focus{
 /* carrossel */
 .carrossel{
 	padding-top: 21px;
+	position: relative;
 }
 
 /* .carrossel .slick-dots{
@@ -136,14 +156,39 @@ form input:focus{
 .carrossel .slick-dots button{
 	border-radius: 100%;
 	background: #fff;
-	width: 76%;
-	height: 76%;
+	width: 77%;
+	height: 77%;
 }
 
-/* .carrossel{ */
-	/* width: 100%; */
-	/* position: relative; */
-	/* margin-top: 50px; */
-	/* overflow-y: hidden; */
-	/* overflow-x: hidden; */
-/* } */
+/* introdução */
+.introducao h3{
+	padding-top: 25px;
+	color: #a8a8a8;
+	text-transform: uppercase;
+}
+
+.bemvindo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 10000;	
+}
+
+.bemvindo h2{
+	padding-top: 08px;
+	color: #fff;
+	font-weight: lighter;
+}
+
+.bemvindo h4{
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	z-index: 700;
+	text-align: center;
+}
+
+.slider-show{
+	position: relative;
+}
