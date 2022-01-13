@@ -63,7 +63,7 @@ h4{
 }
 
 .grid-2{
- width: 715px;
+ width: 470px;
  }
 
 	.grid-3{
@@ -160,13 +160,6 @@ form input:focus{
 	height: 77%;
 }
 
-/* introdução */
-.introducao h3{
-	padding-top: 25px;
-	color: #a8a8a8;
-	text-transform: uppercase;
-}
-
 .bemvindo{
 	position: absolute;
 	top: 50%;
@@ -191,4 +184,29 @@ form input:focus{
 
 .slider-show{
 	position: relative;
+}
+
+/* introdução */
+.introducao h3{
+	padding-top: 25px;
+	color: #a8a8a8;
+	text-transform: uppercase;
+}
+
+.introducao h2{
+	padding-top: 46px;
+	font-size: 15px;
+	color: #9a9a9a;
+}
+
+.produto{
+	padding-top: 25px;
+}
+
+.produto div{
+	text-align: center;
+}
+
+.produto div:nth-child(2){
+	padding-top: 29px;
 }
