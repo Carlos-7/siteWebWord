@@ -218,3 +218,12 @@ form input:focus{
 	padding-top: 10px;
 	color: #7b7b7b;
 }
+
+/* galeria */
+.galeria .lista-galeria li{
+	display: inline;
+}
+
+.galeria img{
+	max-width: 100%;
+}
