@@ -26,11 +26,15 @@ h2{
 }
 
 h3{
+	font-size: 22px;
+}
+
+h4{
 	font-size: 30px;
 	text-align: center;
 }
 
-h4{
+h5{
 	font-size: 40px;
 	text-align: center;
 }
@@ -172,7 +176,7 @@ form input:focus{
 	font-weight: lighter;
 }
 
-.bemvindo h4{
+.bemvindo h5{
 	font-size: 40px;
 	color: #fff;
 	text-transform: uppercase;
@@ -185,7 +189,7 @@ form input:focus{
 }
 
 /* introdução */
-.introducao h3{
+.introducao h4{
 	padding-top: 25px;
 	color: #a8a8a8;
 	text-transform: uppercase;
@@ -277,6 +281,17 @@ form input:focus{
 /* footer */
 .footer{
 	background: #4b494d;
+}
+
+.footer h3{
+	color: #fff;
+	text-align: left;
+	padding: 37px 0 15px 0;
+}
+
+.footer h1{
+	color: #c1c1c1;
+	text-align: left;
 }
 
 .footer ul li{
