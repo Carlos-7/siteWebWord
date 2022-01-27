@@ -284,16 +284,18 @@ form input:focus{
 }
 
 .footer h3{
+	font-size: 20px;
 	color: #fff;
 	text-align: left;
-	padding: 37px 0 15px 0;
+	padding: 30px 0 15px 0;
 }
 
 .footer h1{
 	color: #c1c1c1;
 	text-align: left;
+	line-height: 21px;
 }
 
-.footer ul li{
-	/* display: inline; */
+.footer .troca-fonte{
+	display: inline;
 }
