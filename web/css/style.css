@@ -285,6 +285,7 @@ form input:focus{
 /* footer */
 .footer{
 	background: #4b494d;
+	padding-bottom: 39px;
 }
 
 .footer h4{
@@ -325,6 +326,22 @@ form input:focus{
 
 .footer .tags h3{
 	color: #f5f5f5;
+}
+
+.footer .contato:first-of-type{
+	margin-top: 25px;
+}
+
+.footer .contato{
+	padding-bottom: 12px;
+}
+
+.footer .contato img{
+	padding-right: 13px;
+}
+
+.footer .contato h1{
+	display: inline-block;
 }
 
 .footer ul li{
